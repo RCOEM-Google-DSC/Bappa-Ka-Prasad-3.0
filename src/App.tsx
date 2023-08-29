@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import AboutSection from "./component/about";
 import FooterSection from "./component/footer";
 import LandingSection from "./component/landing";
