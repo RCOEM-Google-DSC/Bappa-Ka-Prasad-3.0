@@ -7,3 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Samarkan";
+  src: local("Samarkan"),
+    url("/title\ font.TTF") format("truetype");
+  font-weight: bold;
+}
