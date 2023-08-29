@@ -1,3 +1,9 @@
 #landing_title {
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
+
+.text-gradient {
+  background: linear-gradient(180deg, #be9361 0%, #605a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
