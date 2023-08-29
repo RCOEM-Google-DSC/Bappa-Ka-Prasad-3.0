@@ -1,10 +1,10 @@
 import "./App.scss";
-import AboutSection from "./component/about";
-import FooterSection from "./component/footer";
-import LandingSection from "./component/landing";
-import LeaderBoardSection from "./component/leaderboard";
-import MiddleSection from "./component/midsection";
-import Navbar from "./component/navbar";
+import AboutSection from "./components/about";
+import FooterSection from "./components/footer";
+import LandingSection from "./components/landing";
+import LeaderBoardSection from "./components/leaderboard";
+import MiddleSection from "./components/midsection";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
