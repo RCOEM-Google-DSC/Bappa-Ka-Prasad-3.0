@@ -14,3 +14,10 @@
     url("/title\ font.TTF") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "ProductSans";
+  src: local("ProductSans"),
+   url("/Product\ Sans\ Regular.ttf") format("truetype");
+   font-weight: 400;
+}
