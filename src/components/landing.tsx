@@ -15,7 +15,7 @@ export default function LandingSection() {
           </p>
           <img src="/3.0.svg" alt="3.0" className="mt-[-20px] sm:mt-[-50px] w-20 sm:w-auto" />
         </div>
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4 items-center text-xl font-semibold">
           <p>An online coding contest</p>
           <p>
             <span className="text-green-600 font-bold">Event Date: </span>
