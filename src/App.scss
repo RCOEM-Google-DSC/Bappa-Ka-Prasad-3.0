@@ -7,3 +7,23 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.text-gradient2 {
+  background: linear-gradient(90deg, #ba6636 0%, #9ba437 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-bg {
+  background-image: url("/bg.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.mid-section-title {
+  color: #7d8190;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: ProductSansBold;
+  letter-spacing: 4.8px;
+}
