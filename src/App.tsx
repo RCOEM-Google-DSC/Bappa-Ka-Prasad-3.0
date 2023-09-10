@@ -29,10 +29,13 @@ function App() {
             { title: "Community Reach", image: "/midsection/community-reach.svg" },
           ]}
         />
-        <a target="_blank" rel="noreferrer" href="https://forms.gle/ChwWq6JdxWjCeerg7">
-          <button className="px-4 py-3 bg-[#BE5038] text-white font-semibold transition-colors rounded-md hover:bg-opacity-80 xl:text-xl lg:text-xl md:text-lg">
-            Apply As Partner
-          </button>
+        <a
+          target="_blank"
+          className="px-4 py-3 bg-[#BE5038] text-white font-semibold transition-colors rounded-md hover:bg-opacity-80 xl:text-xl lg:text-xl md:text-lg"
+          rel="noreferrer"
+          href="https://forms.gle/ChwWq6JdxWjCeerg7"
+        >
+          Apply As Partner
         </a>
         <LeaderBoardSection />
       </div>
