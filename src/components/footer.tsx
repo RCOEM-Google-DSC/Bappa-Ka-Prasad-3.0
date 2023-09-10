@@ -1,6 +1,6 @@
 export default function FooterSection() {
   return (
-    <div className="mt-48 p-4 bg-[#3F4245] pb-20 flex flex-col-reverse xl:flex xl:flex-row xl:pt-20 lg:flex-row lg:pt-20  md:flex md:flex-col-reverse sm:flex flex-col-reverse">
+    <div className="mt-12 p-4 bg-[#3F4245] pb-20 flex flex-col-reverse xl:flex xl:mt-36 xl:flex-row xl:pt-20 lg:flex-row lg:mt-32 lg:pt-20  md:flex md:flex-col-reverse sm:flex flex-col-reverse">
       <div className="contact">
         <div className="justify-center flex xl:ml-36 xl:mr-96 mb-2 lg:ml-32 lg:mr-64">
           <img className='mr-4' src="/GDSC Logo.svg" alt=''/>
@@ -9,10 +9,11 @@ export default function FooterSection() {
             <h3 className="xl:text-lg leading-7 lg:text-base md:text-sm">RCOEM</h3>
           </div>
         </div>
-        <div className="justify-center flex mt-12 xl:ml-64 xl:justify-start lg:ml-60 lg:justify-start">
+        <p style={{fontFamily: 'ProductSans'}} className="text-center mt-6 text-lg text-white xl:ml-64 xl:text-xl xl:text-left lg:ml-60 lg:text-left lg:text-xl">Contact us : +91 7276048933</p>
+        <div className="justify-center flex mt-8 xl:ml-64 xl:justify-start lg:ml-60 lg:justify-start">
           <a className="mr-14" href="https://www.linkedin.com/company/gdsc-rcoem"><img src="/linkedin.svg" alt=''/></a>
           <a className="mr-14" href="https://www.instagram.com/gdsc_rcoem/"><img src="/instagram.svg" alt=''/></a>
-          <a className="mr-14" href="mailto:dsc.rknec@gmail.com"><img src="/google.svg" alt=''/></a>
+          <a href="mailto:gdsc@rknec.edu"><img src="/google.svg" alt=''/></a>
         </div>
         <div style={{fontFamily: 'ProductSans'}} className="text-center mt-12 ml-0 text-sm xl:ml-64 xl:text-lg xl:text-left lg:ml-60 lg:text-left lg:text-base text-white md:text-center md:text-base sm:text-center sm:text-sm">
           <p>Copyright <sup>©</sup> 2023 All rights reserved | Google DSC RCOEM</p>
