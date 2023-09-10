@@ -35,10 +35,10 @@ export default function Navbar() {
           Prizes
         </a>
         <a
-          href="#collaborators"
+          href="#leaderboard"
           className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
         >
-          Collaborators
+          Leaderboard
         </a>
         <button className="px-3 py-2 bg-[#BE5038] text-white transition-colors rounded-md hover:bg-opacity-80">
           Participate

@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <div className="w-full flex flex-col gap-16 justify-center items-center my-20">
+    <div id="about" className="w-full flex flex-col gap-16 justify-center items-center my-20">
       <div>
         <img src="/about_title.svg" alt="title" />
       </div>
