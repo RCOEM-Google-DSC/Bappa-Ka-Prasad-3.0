@@ -7,7 +7,7 @@ export default function AboutSection() {
 
       <div className="w-full flex flex-col justify-center items-center px-10 gap-6 md:flex-row">
         <div className="text-gradient flex flex-col gap-5">
-          <p className="text-4xl font-bold">What is Bappa ka Prashad?</p>
+          <p className="text-4xl font-bold">What is Bappa ka Prasad?</p>
           <p className="max-w-3xl font-semibold text-lg">
             Ganesh Chaturthi marks the birth of Lord Ganesha; the Lord of knowledge, wisdom,
             prosperity and good fortune. During Ganesh Chaturthi, we distribute Prasad and sweets

@@ -11,7 +11,7 @@ export default function LandingSection() {
             className="text-4xl text-[#BE3F38] xl:text-8xl lg:text-6xl md:text-6xl sm:text-4xl text-center"
             id="landing_title"
           >
-            bappa ka prashad
+            bappa ka prasad
           </p>
           <img src="/3.0.svg" alt="3.0" className="mt-[-20px] sm:mt-[-50px] w-20 sm:w-auto" />
         </div>
