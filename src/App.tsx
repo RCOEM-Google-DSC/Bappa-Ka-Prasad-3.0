@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="main-bg">
       <Navbar />
-      <div className="w-screen flex flex-col px-5 justify-center items-center">
+      <div className="w-screen flex flex-col px-5 justify-center items-center overflow-hidden">
         <LandingSection />
         <AboutSection />
         <MiddleSection

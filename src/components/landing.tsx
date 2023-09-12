@@ -19,7 +19,7 @@ export default function LandingSection() {
           <p>An online coding contest</p>
           <p>
             <span className="text-green-600 font-bold">Event Date: </span>
-            1st September, 2023
+            24th September, 2023
           </p>
           <p>
             <span className="text-green-600 font-bold">Event Time: </span>8 PM to 11 PM IST

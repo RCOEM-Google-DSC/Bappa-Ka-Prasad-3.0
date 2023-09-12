@@ -2,7 +2,7 @@ export default function FooterSection() {
   return (
     <div className="mt-12 p-4 bg-[#3F4245] pb-20 flex xl:flex xl:mt-36 xl:flex-row xl:pt-20 lg:flex-row lg:mt-32 lg:pt-20  md:flex md:flex-col-reverse sm:flex flex-col-reverse">
       <div className="contact">
-        <div className="justify-center flex xl:ml-36 xl:mr-96 mb-2 lg:ml-32 lg:mr-64">
+        <div className="justify-center flex xl:pl-36 xl:pr-96 pb-2 lg:pl-32 lg:pr-64">
           <img className="mr-4" src="/GDSC Logo.svg" alt="" />
           <div style={{ fontFamily: "ProductSans" }} className="inline text-white">
             <h2 className="text-lg xl:text-3xl tracking-wide mb-1 lg:text-2xl md:text-2xl whitespace-nowrap sm:text-2xl">
