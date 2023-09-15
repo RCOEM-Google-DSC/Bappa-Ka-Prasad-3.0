@@ -1,10 +1,14 @@
 export default function LandingSection() {
   return (
     <div className="w-full flex gap-20 justify-center my-20">
-      <div className="hidden sm:block">
+      <div className="hidden sm:block" data-aos="zoom-in-right" data-aos-duration="1000">
         <img src="/landing-left.svg" alt="a" className="lg:w-[150px] sm:[130px] w-[100px]" />
       </div>
-      <div className="flex flex-col justify-start items-center gap-10">
+      <div
+        className="flex flex-col justify-start items-center gap-10"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-col justify-center items-center">
           <p
             style={{ fontFamily: "Samarkan" }}
@@ -41,7 +45,7 @@ export default function LandingSection() {
           </div>
         </div>
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block" data-aos="zoom-in-left" data-aos-duration="1000">
         <img src="landing-right.svg" alt="a" className="lg:w-[150px] sm:[130px] w-[100px]" />
       </div>
     </div>

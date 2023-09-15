@@ -5,6 +5,26 @@ import LandingSection from "./components/landing";
 import LeaderBoardSection from "./components/leaderboard";
 import MiddleSection from "./components/midsection";
 import Navbar from "./components/navbar";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBSqRE6ZqZ8l1aKZCB9Ia_LsK_4yYANw5M",
+  authDomain: "bkprashad-3.firebaseapp.com",
+  projectId: "bkprashad-3",
+  storageBucket: "bkprashad-3.appspot.com",
+  messagingSenderId: "709644961830",
+  appId: "1:709644961830:web:b12967a60fc61557873ee7",
+  measurementId: "G-5HQV0X6RPH",
+};
+
+const app = initializeApp(firebaseConfig);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const analytics = getAnalytics(app);
+
+AOS.init();
 
 function App() {
   return (

@@ -21,7 +21,11 @@ export default function MiddleSection({
           {content.map((item: contentInterface, i: number) => {
             return (
               <div key={i} className="flex flex-col justify-center items-center gap-3">
-                <div className="w-[250px] rounded-full flex justify-center items-center overflow-hidden">
+                <div
+                  data-aos="zoom-in-up"
+                  data-aos-duration="2000"
+                  className="w-[250px] rounded-full flex justify-center items-center overflow-hidden"
+                >
                   <img
                     className="w-full h-[250px] object-cover"
                     src={item.image ? item.image : "#"}
