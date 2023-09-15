@@ -1,59 +1,69 @@
 export default function FooterSection() {
   return (
-    <div className="mt-12 p-4 bg-[#3F4245] pb-20 flex flex-col-reverse xl:flex xl:mt-36 xl:flex-row xl:pt-20 lg:flex-row lg:mt-32 lg:pt-20  md:flex md:flex-col-reverse sm:flex flex-col-reverse">
-      <div className="contact">
-        <div className="justify-center flex xl:ml-36 xl:mr-96 mb-2 lg:ml-32 lg:mr-64">
-          <img className='mr-4' src="/GDSC Logo.svg" alt=''/>
-          <div 
-            style={{fontFamily: 'ProductSans'}} 
-            className="inline text-white"
+    <div className="mt-16 p-4 bg-[#3F4245] py-20 grid grid-cols-1 lg:grid-cols-2 w-full overflow-hidden gap-4 lg:gap-10">
+      <div className="w-full flex gap-3 justify-center">
+        <div>
+          <img src="/GDSC Logo.svg" alt="GDSC Logo" />
+        </div>
+        <div className="text-white">
+          <h2 className="text-lg xl:text-3xl tracking-wide mb-1 lg:text-2xl md:text-2xl whitespace-nowrap sm:text-2xl">
+            Google Developer Student Clubs
+          </h2>
+          <h3 className="xl:text-lg leading-7 lg:text-base md:text-sm">RCOEM</h3>
+          <p style={{ fontFamily: "ProductSans" }} className="text-lg xl:text-xl lg:text-xl">
+            Contact us : gdsc@rknec.edu
+          </p>
+          <div className="flex mt-8 gap-14">
+            <a className="" href="https://www.linkedin.com/company/gdsc-rcoem">
+              <img src="/linkedin.svg" alt="" />
+            </a>
+            <a className="" href="https://www.instagram.com/gdsc_rcoem/">
+              <img src="/instagram.svg" alt="" />
+            </a>
+            <a href="mailto:gdsc@rknec.edu">
+              <img src="/google.svg" alt="" />
+            </a>
+          </div>
+          <div style={{ fontFamily: "ProductSans" }} className="mt-8">
+            <p>Copyright © 2023 All rights reserved | Google DSC RCOEM</p>
+          </div>
+          <div
+            style={{ fontFamily: "ProductSans", lineHeight: "55px" }}
+            className="w-full xl:text-white text-4xl lg:text-3xl text-white md:text-2xl flex sm:text-xl pl-4 lg:hidden"
           >
-            <h2 className="text-lg xl:text-3xl tracking-wide mb-1 lg:text-2xl md:text-2xl whitespace-nowrap sm:text-2xl">
-              Google Developer Student Clubs
-            </h2>
-            <h3 className="xl:text-lg leading-7 lg:text-base md:text-sm">RCOEM</h3>
+            <ul className="grid grid-cols-2 list-disc text-base mt-8">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#prizes">Prizes</a>
+              </li>
+              <li>
+                <a href="#collaborators">Collaborators</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <p 
-          style={{fontFamily: 'ProductSans'}} 
-          className="text-center mt-6 text-lg text-white xl:ml-64 xl:text-xl xl:text-left lg:ml-60 lg:text-left lg:text-xl"
-        >
-            Contact us : gdsc@rknec.edu
-        </p>
-        <div className="justify-center flex mt-8 xl:ml-64 xl:justify-start lg:ml-60 lg:justify-start">
-          <a className="mr-14" href="https://www.linkedin.com/company/gdsc-rcoem">
-            <img src="/linkedin.svg" alt=''/>
-          </a>
-          <a className="mr-14" href="https://www.instagram.com/gdsc_rcoem/">
-            <img src="/instagram.svg" alt=''/>
-          </a>
-          <a href="mailto:gdsc@rknec.edu">
-            <img src="/google.svg" alt=''/>
-          </a>
-        </div>
-        <div 
-          style={{fontFamily: 'ProductSans'}} 
-          className="text-center mt-12 ml-0 text-sm xl:ml-64 xl:text-lg xl:text-left lg:ml-60 lg:text-left lg:text-base text-white md:text-center md:text-base sm:text-center sm:text-sm"
-        >
-          <p>Copyright <sup>©</sup> 2023 All rights reserved | Google DSC RCOEM</p>
-        </div>
       </div>
-      <div 
-        style={{fontFamily: 'ProductSans', lineHeight: '55px'}}
-        className="text-lg xl:text-white text-4xl lg:text-3xl text-white md:text-2xl mb-4 flex justify-center sm:text-xl"
+      <div
+        style={{ fontFamily: "ProductSans", lineHeight: "55px" }}
+        className="hidden w-full xl:text-white text-4xl lg:text-3xl text-white md:text-2xl lg:flex sm:text-xl lg:pl-20"
       >
-        <ul className="flex list-none xl:inline xl:list-disc lg:inline lg:list-disc md:flex sm:flex">
-          <li className="ml-0 mr-7 xl:ml-0 lg:ml-0 md:ml-24 md:mr-24 sm:mr-20">
-            <a href='#'>Home</a>
+        <ul className="list-disc text-xl xl:text-2xl flex flex-col gap-5">
+          <li>
+            <a href="#">Home</a>
           </li>
-          <li className="mr-7 md:mr-24 sm:mr-20">
-            <a href='#about'>About</a>
+          <li>
+            <a href="#about">About</a>
           </li>
-          <li className="mr-7 md:mr-24 sm:mr-20">
-            <a href='#prizes'>Prizes</a>
+          <li>
+            <a href="#prizes">Prizes</a>
           </li>
-          <li className="md:mr-24 sm:mr-0">
-            <a href='#collaborators'>Collaborators</a>
+          <li>
+            <a href="#collaborators">Collaborators</a>
           </li>
         </ul>
       </div>

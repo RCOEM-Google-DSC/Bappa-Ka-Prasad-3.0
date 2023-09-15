@@ -40,9 +40,14 @@ export default function Navbar() {
         >
           Leaderboard
         </a>
-        <button className="px-3 py-2 bg-[#BE5038] text-white transition-colors rounded-md hover:bg-opacity-80">
+        <a
+          href="http://bit.ly/bkp3registration"
+          target="_blank"
+          rel="noreferrer"
+          className="px-3 py-2 bg-[#BE5038] text-white transition-colors rounded-md hover:bg-opacity-80"
+        >
           Participate
-        </button>
+        </a>
       </div>
       <div className="flex lg:hidden">
         <Popover>
