@@ -41,7 +41,7 @@ export default function LandingSection() {
             Participate
           </a>
           <div className="w-full flex justify-center mt-10">
-            <img className="w-[80%] md:w-[300px]" src="qrcode.png" alt="bappa ka prashad qr code" />
+            <img className="w-[80%] md:w-[300px]" src="qrcode.svg" alt="bappa ka prashad qr code" />
           </div>
         </div>
       </div>
