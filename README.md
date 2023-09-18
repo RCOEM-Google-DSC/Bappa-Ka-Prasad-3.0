@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+site hosted at [bk3.gdsc.one](https://bkp3.gdsc.one)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
