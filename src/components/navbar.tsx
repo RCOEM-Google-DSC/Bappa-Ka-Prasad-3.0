@@ -82,9 +82,14 @@ export default function Navbar() {
               >
                 Collaborators
               </a>
-              <button className="px-3 py-2 bg-[#BE5038] text-white transition-colors rounded-md hover:bg-opacity-80">
+              <a
+                href="http://bit.ly/bkp3registration"
+                target="_blank"
+                rel="noreferrer"
+                className="px-3 py-2 bg-[#BE5038] text-white transition-colors text-center rounded-md hover:bg-opacity-80"
+              >
                 Participate
-              </button>
+              </a>
             </div>
           </PopoverContent>
         </Popover>
