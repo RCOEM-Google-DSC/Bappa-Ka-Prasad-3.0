@@ -3,29 +3,32 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: "Samarkan";
-  src: local("Samarkan"),
-    url("/title\ font.TTF") format("truetype");
-  font-weight: bold;
+	font-family: "Samarkan";
+	src:
+		local("Samarkan"),
+		url("/title\ font.TTF") format("truetype");
+	font-weight: bold;
 }
 
 @font-face {
-  font-family: "ProductSans";
-  src: local("ProductSans"),
-    url("/Product\ Sans\ Regular.ttf") format("truetype");
-  font-weight: 400;
+	font-family: "ProductSans";
+	src:
+		local("ProductSans"),
+		url("/Product\ Sans\ Regular.ttf") format("truetype");
+	font-weight: 400;
 }
 
 @font-face {
-  font-family: "ProductSansBold";
-  src: local("ProductSansBold"),
-    url("/Product\ Sans\ Bold.ttf") format("truetype");
-  font-weight: 700;
+	font-family: "ProductSansBold";
+	src:
+		local("ProductSansBold"),
+		url("/Product\ Sans\ Bold.ttf") format("truetype");
+	font-weight: 700;
 }

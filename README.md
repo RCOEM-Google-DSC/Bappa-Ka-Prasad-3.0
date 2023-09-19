@@ -1,29 +1,7 @@
-# React + TypeScript + Vite
+# [Bappa Ka Prashad 3.0](https://bkp3.gdsc.one)
 
-site hosted at [bk3.gdsc.one](https://bkp3.gdsc.one)
+## About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ganesh Chaturthi marks the birth of Lord Ganesha; the Lord of knowledge, wisdom, prosperity and good fortune. During Ganesh Chaturthi, we distribute Prashad and sweets among our loved ones with joy and spirit. Similarly, this event was introduced with the motivation of distributing the Prashad of coding and knowledge through competitive coding among all the participants.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+For more details, visit the [website](https://bkp3.gdsc.one)
