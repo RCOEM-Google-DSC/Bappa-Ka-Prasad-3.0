@@ -11,6 +11,9 @@ module.exports = {
 			},
 		},
 		extend: {
+			fontFamily: {
+				sans: "ProductSans",
+			},
 			keyframes: {
 				"accordion-down": {
 					from: { height: 0 },

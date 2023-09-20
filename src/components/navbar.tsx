@@ -1,10 +1,11 @@
 import { Button } from "./ui/button";
 import { HiBars2 } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 
 export default function Navbar() {
 	return (
-		<nav className="flex justify-between p-6 gap-4 items-center">
+		<nav className="flex justify-between p-6 gap-4 items-center sticky top-0 bg-white z-10">
 			<div className="flex gap-4 items-center">
 				<a href="/">
 					<img src="/logo.svg" alt="logo" />
@@ -16,12 +17,12 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div className="hidden justify-center gap-3 items-center lg:flex">
-				<a
-					href="/"
+				<Link
+					to="/"
 					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 				>
 					Home
-				</a>
+				</Link>
 				<a
 					href="#about"
 					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
@@ -40,6 +41,12 @@ export default function Navbar() {
 				>
 					Leaderboard
 				</a>
+				<Link
+					to="/partners"
+					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
+				>
+					Partners
+				</Link>
 				<a
 					href="http://bit.ly/bkp3registration"
 					target="_blank"
