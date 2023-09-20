@@ -65,12 +65,12 @@ export default function Navbar() {
 					</PopoverTrigger>
 					<PopoverContent>
 						<div className="flex flex-col justify-center gap-3 items-stretch">
-							<a
-								href="/"
+							<Link
+								to="/"
 								className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 							>
 								Home
-							</a>
+							</Link>
 							<a
 								href="#about"
 								className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
@@ -83,12 +83,12 @@ export default function Navbar() {
 							>
 								Prizes
 							</a>
-							<a
-								href="#collaborators"
+							<Link
+								to="/partners"
 								className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 							>
-								Collaborators
-							</a>
+								Partners
+							</Link>
 							<a
 								href="http://bit.ly/bkp3registration"
 								target="_blank"
