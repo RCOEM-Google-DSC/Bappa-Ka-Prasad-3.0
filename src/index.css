@@ -7,29 +7,22 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	outline: 1px solid red;
 }
 
 @font-face {
 	font-family: "Samarkan";
-	src:
-		local("Samarkan"),
-		url("/title\ font.TTF") format("truetype");
+	src: local("Samarkan"), url("/title\ font.TTF") format("truetype");
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: "ProductSans";
-	src:
-		local("ProductSans"),
-		url("/Product\ Sans\ Regular.ttf") format("truetype");
+	src: local("ProductSans"), url("/Product\ Sans\ Regular.ttf") format("truetype");
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: "ProductSansBold";
-	src:
-		local("ProductSansBold"),
-		url("/Product\ Sans\ Bold.ttf") format("truetype");
+	src: local("ProductSansBold"), url("/Product\ Sans\ Bold.ttf") format("truetype");
 	font-weight: 700;
 }
