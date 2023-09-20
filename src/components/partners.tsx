@@ -2,13 +2,13 @@ import GDSC from "./gdsc";
 
 export default function Partners() {
 	const partners = [
+		"J D College of Engineering & Management",
 		"Symbiosis Institute of Technology, Nagpur",
 		"P.A College of Engineering",
 		"BIT Mesra, Patna Campus",
 		"Pragati Engineering College",
 		"Datta Meghe Institute of Higher Education & Research",
 		"PRMITR, Badnera-Amravati",
-		"J D College of Engineering & Management",
 		"Cummins College of Engineering For Women, Nagpur",
 		"Sinhgad Institue of Technology and Science",
 	];
