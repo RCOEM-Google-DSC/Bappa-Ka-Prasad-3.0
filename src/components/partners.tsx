@@ -14,7 +14,7 @@ export default function Partners() {
 	];
 	return (
 		<div className="w-full flex items-center p-12 justify-center">
-			<div className="max-w-[1150px] w-full flex flex-col gap-10 md:gap-16">
+			<div className="max-w-[1150px] w-full flex flex-col gap-10 md:gap-16 items-center justify-center">
 				<div className="flex gap-3 justify-center items-center sm:justify-center">
 					<img className="w-10 md:w-16" src="/prashad.svg" alt="prashad" />
 					<p className="mid-section-title text-5xl max-md:text-2xl">Our Partners</p>
