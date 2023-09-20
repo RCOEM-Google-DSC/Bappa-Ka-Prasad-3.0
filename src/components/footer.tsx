@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function FooterSection() {
 	return (
 		<div className="mt-16 p-4 bg-[#3F4245] py-20 grid grid-cols-1 lg:grid-cols-2 w-full overflow-hidden gap-4 lg:gap-10">
@@ -36,7 +38,7 @@ export default function FooterSection() {
 					>
 						<ul className="grid grid-cols-2 list-disc text-base mt-8">
 							<li>
-								<a href="#">Home</a>
+								<Link to="/">Home</Link>
 							</li>
 							<li>
 								<a href="#about">About</a>
@@ -45,7 +47,7 @@ export default function FooterSection() {
 								<a href="#prizes">Prizes</a>
 							</li>
 							<li>
-								<a href="#collaborators">Collaborators</a>
+								<Link to="/partners">Partners</Link>
 							</li>
 						</ul>
 					</div>
@@ -57,7 +59,7 @@ export default function FooterSection() {
 			>
 				<ul className="list-disc text-xl xl:text-2xl flex flex-col gap-5">
 					<li>
-						<a href="#">Home</a>
+						<Link to="/">Home</Link>
 					</li>
 					<li>
 						<a href="#about">About</a>
@@ -66,7 +68,7 @@ export default function FooterSection() {
 						<a href="#prizes">Prizes</a>
 					</li>
 					<li>
-						<a href="#collaborators">Collaborators</a>
+						<Link to="/partners">Partners</Link>
 					</li>
 				</ul>
 			</div>
