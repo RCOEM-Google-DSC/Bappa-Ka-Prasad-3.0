@@ -1,10 +1,8 @@
 import "./App.scss";
 import AboutSection from "./components/about";
-import FooterSection from "./components/footer";
 import LandingSection from "./components/landing";
 import LeaderBoardSection from "./components/leaderboard";
 import MiddleSection from "./components/midsection";
-import Navbar from "./components/navbar";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import AOS from "aos";
@@ -28,7 +26,6 @@ AOS.init();
 function App() {
 	return (
 		<div className="main-bg">
-			<Navbar />
 			<div className="w-screen flex flex-col px-5 justify-center items-center overflow-hidden">
 				<LandingSection />
 				<AboutSection />
@@ -66,6 +63,11 @@ function App() {
 						},
 					]}
 				/>
+				<MiddleSection normal title="Platform Partner" content={[
+					{
+						image: "/codechef.png"
+					}
+				]} />
 				<a
 					target="_blank"
 					className="px-4 py-3 bg-[#BE5038] text-white font-semibold transition-colors rounded-md hover:bg-opacity-80 xl:text-xl lg:text-xl md:text-lg"
@@ -76,7 +78,6 @@ function App() {
 				</a>
 				<LeaderBoardSection />
 			</div>
-			<FooterSection />
 		</div>
 	);
 }
