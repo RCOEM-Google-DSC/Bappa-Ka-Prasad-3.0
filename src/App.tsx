@@ -63,7 +63,7 @@ function App() {
 						},
 					]}
 				/>
-				<MiddleSection normal title="Main Partner" content={[
+				<MiddleSection normal title="Platform Partner" content={[
 					{
 						image: "/codechef.png"
 					}

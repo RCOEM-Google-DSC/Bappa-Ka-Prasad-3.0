@@ -30,7 +30,7 @@ export default function FooterSection() {
 								fontFamily: "ProductSans",
 								lineHeight: "55px",
 							}}
-							className="justify-center xl:text-white text-4xl lg:text-3xl text-white md:text-2xl flex sm:text-xl lg:hidden"
+							className="justify-center xl:text-white text-4xl lg:text-3xl text-white md:text-2xl flex sm:text-xl md:hidden"
 						>
 							<ul className="grid grid-cols-2 list-disc text-base mt-8 gap-x-8 gap-y-2">
 								<li>

@@ -17,7 +17,12 @@ export default function MiddleSection({ title, content, normal }: MiddleSectionP
 									className={"flex justify-center items-center overflow-hidden " + round}
 								>
 									<img
-										className={"w-full h-[250px]" + round ? "object-cover" : "object-contain"}
+										className={"w-full"}
+										style={{
+											height: normal ? "10rem" : "250px",
+											width: normal ? "auto" : "250px",
+											objectFit: normal ? "contain" : "cover",
+										}}
 										src={item.image ? item.image : "#"}
 										alt={item.title || "img"}
 									/>
