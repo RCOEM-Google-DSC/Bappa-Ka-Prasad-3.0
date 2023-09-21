@@ -24,19 +24,19 @@ export default function Navbar() {
 					Home
 				</Link>
 				<a
-					href="#about"
+					href="/#about"
 					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 				>
 					About
 				</a>
 				<a
-					href="#prizes"
+					href="/#prizes"
 					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 				>
 					Prizes
 				</a>
 				<a
-					href="#leaderboard"
+					href="/#leaderboard"
 					className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 				>
 					Leaderboard
@@ -72,13 +72,13 @@ export default function Navbar() {
 								Home
 							</Link>
 							<a
-								href="#about"
+								href="/#about"
 								className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 							>
 								About
 							</a>
 							<a
-								href="#prizes"
+								href="/#prizes"
 								className="px-3 py-2 hover:bg-gray-200 transition-colors rounded-md text-[#898A99] hover:text-gray-600"
 							>
 								Prizes
