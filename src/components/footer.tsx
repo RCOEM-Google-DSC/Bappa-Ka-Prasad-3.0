@@ -64,10 +64,10 @@ export default function FooterSection() {
 							</Link>
 						</li>
 						<li>
-							<a href="#about">About</a>
+							<a href="/#about">About</a>
 						</li>
 						<li>
-							<a href="#prizes">Prizes</a>
+							<a href="/#prizes">Prizes</a>
 						</li>
 						<li>
 							<Link to="/partners" onClick={() => window.scrollTo(0, 0)}>
