@@ -7,6 +7,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Prizes from "./components/prizes";
 
 const firebaseConfig = {
 	apiKey: "AIzaSyBSqRE6ZqZ8l1aKZCB9Ia_LsK_4yYANw5M",
@@ -60,6 +61,24 @@ function App() {
 						{
 							title: "Community Reach",
 							image: "/midsection/community-reach.svg",
+						},
+					]}
+				/>
+				<Prizes
+					title="Prizes"
+					content={[
+						
+						{
+							title: "Wireless Mouse",
+							image: "/midsection/mouse.jpeg",
+						},
+						{
+							title: "Goodies",
+							image: "/prize.JPG",
+						},
+						{
+							title: "Certificate to all Participants",
+							image: "/midsection/certificate.jpg",
 						},
 					]}
 				/>
