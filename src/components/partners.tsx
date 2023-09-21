@@ -11,6 +11,12 @@ export default function Partners() {
 		"PRMITR, Badnera-Amravati",
 		"Cummins College of Engineering For Women, Nagpur",
 		"Sinhgad Institue of Technology and Science",
+		"GHRCE",
+		"Bajaj Institute of Technology",
+		"YCCE",
+		"Government College of Engineering Amravati",
+		"Shri Venkateshwara College of Engineering",
+		"Charotar University of Science and Technology"
 	];
 	return (
 		<div className="w-full flex items-center p-12 justify-center">
