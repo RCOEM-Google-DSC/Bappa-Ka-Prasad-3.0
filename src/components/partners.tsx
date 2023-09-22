@@ -2,6 +2,8 @@ import GDSC from "./gdsc";
 
 export default function Partners() {
 	const partners = [
+		"Charotar University of Science and Technology",
+		"National Institute of Technology, Arunachal Pradesh",
 		"J D College of Engineering & Management",
 		"Symbiosis Institute of Technology, Nagpur",
 		"P.A College of Engineering",
@@ -15,8 +17,7 @@ export default function Partners() {
 		"Bajaj Institute of Technology",
 		"YCCE",
 		"Government College of Engineering Amravati",
-		"Shri Venkateshwara College of Engineering",
-		"Charotar University of Science and Technology"
+		"Shri Venkateshwara College of Engineering",	
 	];
 	return (
 		<div className="w-full flex items-center p-12 justify-center">
