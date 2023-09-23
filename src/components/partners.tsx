@@ -17,7 +17,9 @@ export default function Partners() {
 		"Bajaj Institute of Technology",
 		"YCCE",
 		"Government College of Engineering Amravati",
-		"Shri Venkateshwara College of Engineering",	
+		"Shri Venkateshwara College of Engineering",
+		"GJUST",
+		"GCOEN"	
 	];
 	return (
 		<div className="w-full flex items-center p-12 justify-center">
