@@ -19,7 +19,7 @@ export default function Partners() {
 		"Government College of Engineering Amravati",
 		"Shri Venkateshwara College of Engineering",
 		"GJUST",
-		"GCOEN"	
+		"GCOEN"
 	];
 	return (
 		<div className="w-full flex items-center p-12 justify-center">
